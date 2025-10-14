@@ -1,4 +1,4 @@
-package Stor]]e;
+package Store;
 import java.util.Scanner;
 
 public class DJ_Store {
@@ -111,6 +111,7 @@ public class DJ_Store {
         System.out.println("\n Thank you for shopping with us!");
     }
 }
+
 
 
 
