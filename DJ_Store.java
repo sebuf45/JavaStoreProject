@@ -1,7 +1,7 @@
-package store;
+package DJ;
 import java.util.Scanner;
 
-public class DJ_Store {
+public class djstore {
 
     public static void main(String[] args) {
         Scanner DJ = new Scanner(System.in);
@@ -23,7 +23,7 @@ public class DJ_Store {
         double subtotal = 0.0;
         int totalItems = 0;
 
-        System.out.println("🎧 Welcome to the DJ Hardware store");
+        System.out.println(" Welcome to the DJ Hardware store");
 
         // Loop
         while (true) {
@@ -79,7 +79,7 @@ public class DJ_Store {
             subtotal += itemTotal;
             totalItems += quantity;
 
-            System.out.println(" Added " + quantity + " x " + itemName + " @ $" + itemPrice);
+            System.out.println(" Added " + quantity + " x " + itemName + "  $" + itemPrice);
             System.out.println("Item total: $" + itemTotal);
         }
 
